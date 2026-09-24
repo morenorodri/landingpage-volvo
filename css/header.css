@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+        background-color: red;
+
+       
+    .nav__links {
+        display: flex;
+
+    }
+
+    .volvo-logo {
+        
+            color: ;
+    }
+    
+}
