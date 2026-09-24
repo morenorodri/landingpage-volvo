@@ -2,23 +2,160 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+        font-family: "Volvo Sans", Arial, Helvetica, sans-serif;
+        font-size: 1rem;
 }
 
 
 header {
     display: flex;
     flex-direction: column;
-        background-color: red;
+        background-color: lightcoral;
 
        
     .nav__links {
         display: flex;
+        flex-direction: row;
+        column-gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        padding: .75rem 4rem;
+            background-color: white;
+    }
 
+    .logo-holder {
+        margin-right: auto;
     }
 
     .volvo-logo {
-        
-            color: ;
+        width: 6rem;
     }
-    
+
+
+    .nav-links {
+        display: flex;
+        column-gap: 1rem;
+    }
+
+    .nav-link {
+        padding: 1rem .5rem;
+    }
+
+    .nav-link:hover {
+        background-color: #E0E0E0; 
+    }
+
+
+    .icon-holder {
+        display: flex;
+        column-gap: 2rem;
+        margin-left: auto;
+    }
+
+    .user-icon {
+        width: 1.25rem;       
+    }
+
+    .search-icon {
+        width: 1.25rem;
+    }
+
+
+    .header__hero {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 1.5rem;
+        height: 52rem;
+        background:
+        linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0)
+        ),
+        url("/img/home-car.jpeg");
+        background-position: center;
+        background-size: cover;
+            
+            
+    }
+
+    .atention-box {
+        display: flex;
+        justify-content: center;
+        margin-bottom: auto;
+        column-gap: 1rem;
+        padding: 1.25rem 4rem;
+            background-color: black;
+    }
+
+    .atention-details {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 1rem;
+        margin-left: auto;
+    }
+
+    .atention-text {
+            font-size: 1rem;
+            font-weight: 100;
+            line-height: 1rem;
+            color: white;
+    }
+
+    .atention-link {
+            font-size: 1rem;
+            font-weight: 600;
+            color: white;
+    }
+
+    .atention-link:hover {
+            color: #E0E0E0;
+    }
+
+
+    .close-atention {
+        margin-left: auto;
+        border: none;
+            font-size: 1;
+            color: white;
+            background-color: black;
+            cursor: pointer;
+    }
+
+
+    .hero-details {
+        display: flex;
+        row-gap: 2rem;
+        margin-bottom: auto;
+        padding: 0 5rem;
+        flex-direction: column;
+    }
+
+    .header-title {
+            font-size: 3.5rem;
+            font-weight: 100;
+            line-height: 3.5rem;
+            color: white;
+    }
+
+    .discover-link {
+        padding: 1rem 1.5rem;
+        border-radius: 1in;
+        width: fit-content;
+            font-size: 1.125rem;
+            font-weight: 100;
+            line-height: 1.125;
+            color: black;
+            background-color: white;
+    }
+
+    .discover-link:hover {
+            background-color: #E0E0E0;
+    }
 }
